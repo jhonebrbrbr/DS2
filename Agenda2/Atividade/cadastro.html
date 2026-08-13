@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="w3.css"> <!-- Folha de estilo do w3 css framework -->
+        <title>CADASTRO</title>
+    </head>
+    <body>
+        <form name="FrmCadastro" method="post" action="processaCadastro.php">
+        <br/>
+        <label>Nome:</label><input class="w3-input" name="nome_completo" type="text" size="60" placeholder = "Digitar o Nome">
+        <br/><br/>
+        <label>Idade:</label> <input class="w3-input" name="idade" type="number" placeholder = "Digitar a Idade">
+        <br/><br/>
+        <label>Profissão:</label><input class="w3-input" name="profissao" type="text" size="60" placeholder = "Digitar a Profissão">
+        <br/><br/>
+        <label>Salário Pretendido:</label> <input class="w3-input" name="salario" type="number" placeholder = "Digitar a Salario Pretendido">
+        <br/> <br/>
+        <label>Experiência Anterior:</label><textarea class="w3-input" name="Exp_Anterior"></textarea>
+        <br/>
+        <input class="w3-button w3-cyan w3-round-small" name="Enviar" type="submit" id="enviar" value="Clique para Enviar">
+        </form>   
+        <!--A ideia foi utilizar type number em salario e idade para forçar o usuario a usar números 
+        foi usado a classe w3-input só para ajustar um pouco o estilo e as tags w3-button, w3-cyan, w3-round-small para deixar com 
+        formato de botão
+        -->
+    </body>
+</html>
