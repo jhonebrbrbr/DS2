@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+        <title>Agenda 4</title> 
+    </head>
+    
+    <body>
+        <div class="w3-row">
+            <div class="w3-green w3-center">
+                <h2>Cadastro de cliente:</h2>
+
+                <form method="post" action="agenda4action.php">
+                <label>Digite a quantidade de clientes (de 1 a 5) que você gostaria de ver o cadastro:</label><br>
+                <input type="number" name="txtQtd" min="1" max="5" required="yes"><br>
+                <br><button class="w3-btn w3-blue-grey w3-round-large">Enviar Dados</button>
+                </form>   
+            </div>
+        </div>
+    </body>
+    <!-- Aqui a estrutura ficou bem simples, a ideia mesmo é ter o processamento total no php
+    coloquei os limite de min 1 e max 5 no input e required = yes para que não pule para a proxima
+    pagina sem as devidas informações 
+    -->
+
+</html>
